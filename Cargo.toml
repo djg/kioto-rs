@@ -1,0 +1,18 @@
+[package]
+name = "kioto"
+version = "0.1.0"
+authors = ["Dan Glastonbury <dan.glastonbury@gmail.com>"]
+
+[dependencies]
+bincode = "*"
+bytes = "*"
+futures = "*"
+log = "*"
+serde = "1.*"
+serde_derive = "1.*"
+tokio-core = "*"
+tokio-io = "*"
+
+[dev-dependencies]
+env_logger = "*"
+
